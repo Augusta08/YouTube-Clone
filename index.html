@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <div class="header__brand">
+            <button class="main-button hamburger-icon-button">
+                <i class="fa-solid fa-bars hamburger-icon"></i>
+            </button>
+            <a href="index.html">
+                <i class="fa-brands fa-youtube"></i>
+                YouTube
+            </a>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="search-bar__input" placeholder="Search">
+            <button class="main-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <ul class="header__buttons">
+            <li class="header__button"><button class="main-button"><i class="fa-solid fa-tv"></i></button></li>
+            <li class="header__button"><button class="main-button"><i class="fa-regular fa-bell"></i></button></li>
+            <li class="header__button"><button class="main-button"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+        </ul>
+    </header>
+
+    <nav class="hamburger-nav">
+        <div class="header__brand">
+            <button class="main-button hamburger-icon-button">
+                <i class="fa-solid fa-bars hamburger-icon"></i>
+            </button>
+            <a href="index.html">
+                <i class="fa-brands fa-youtube"></i>
+                YouTube
+            </a>
+        </div>
+        <div class="hamburger-nav__links">
+            <div class="hamburger-nav__link">
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-play"></i>
+                    <p>Shorts</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-regular fa-folder"></i>
+                    <p>Subscription</p>
+                </a>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <p>You ></p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <p>History</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-list"></i>
+                    <p>Playlists</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-play"></i>
+                    <p>Your videos</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <p>Your courses</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Watch later</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <p>Liked videos</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-download"></i>
+                    <p>Downloads</p>
+                </a>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="hamburger-nav__link nav-heading">
+                <p>Subscriptions ></p>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <img src="images/subscriber1.jpg" alt="User subscribed to image">
+                    <p>Rachel McCormick</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <img src="images/subscriber2.jpg" alt="User subscribed to image">
+                    <p>Daniel Hart</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <img src="images/subscriber3.jpg" alt="User subscribed to image">
+                    <p>Louis Cantrell</p>
+                </a>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="hamburger-nav__link nav-heading">
+                <p>Explore</p>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-fire"></i>
+                    <p>Trending</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-music"></i>
+                    <p>Music</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <p>Gaming</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-regular fa-newspaper"></i>
+                    <p>News</p>
+                </a>
+            </div>
+            <div class="hamburger-nav__link">
+                <a href="#">
+                    <i class="fa-solid fa-trophy"></i>
+                    <p>Sports</p>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="video__container">
+            <img src="images/Thumbnail1.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user1.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">The Thrive Podcast - The power of personal branding</p>
+                    <p class="video__creator-name">The Thrive Channel</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail2.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user2.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">All 2024 hits</p>
+                    <p class="video__creator-name">Mary Carter</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail3.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user3.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">Total Body Workout - Get in Shape</p>
+                    <p class="video__creator-name">StayFit</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail4.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user4.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">How to Make a Youtube Thumbnail</p>
+                    <p class="video__creator-name">The How-to Guy</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail1.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user1.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">The Thrive Podcast - The power of personal branding</p>
+                    <p class="video__creator-name">The Thrive Channel</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail2.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user2.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">All 2024 hits</p>
+                    <p class="video__creator-name">Mary Carter</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail3.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user3.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">Total Body Workout - Get in Shape</p>
+                    <p class="video__creator-name">StayFit</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail4.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user4.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">How to Make a Youtube Thumbnail</p>
+                    <p class="video__creator-name">The How-to Guy</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail1.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user1.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">The Thrive Podcast - The power of personal branding</p>
+                    <p class="video__creator-name">The Thrive Channel</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail2.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user2.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">All 2024 hits</p>
+                    <p class="video__creator-name">Mary Carter</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail3.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user3.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">Total Body Workout - Get in Shape</p>
+                    <p class="video__creator-name">StayFit</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail4.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user4.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">How to Make a Youtube Thumbnail</p>
+                    <p class="video__creator-name">The How-to Guy</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail1.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user1.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">The Thrive Podcast - The power of personal branding</p>
+                    <p class="video__creator-name">The Thrive Channel</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail2.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user2.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">All 2024 hits</p>
+                    <p class="video__creator-name">Mary Carter</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail3.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user3.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">Total Body Workout - Get in Shape</p>
+                    <p class="video__creator-name">StayFit</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+        <div class="video__container">
+            <img src="images/Thumbnail4.jpg" alt="Video thumbnail">
+            <div class="video__descripton">
+                <img class="video__creator-image" src="images/user4.jpg" alt="Creator's image">
+                <div class="video-title-and-page-link">
+                    <p class="video__title">How to Make a Youtube Thumbnail</p>
+                    <p class="video__creator-name">The How-to Guy</p>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical kebab-menu"></i>
+            </div>
+        </div>
+    </main>
+    <nav class="footer-nav">
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-play"></i>
+        <div class="plus-icon">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <i class="fa-regular fa-folder"></i>
+        <i class="fa-regular fa-user"></i>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
