@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');* {
     box-sizing: border-box;
 }
 
@@ -8,7 +7,7 @@ body {
     grid-template-rows: 60px auto;
     grid-template-areas: "header"
                          "main";
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
 }
 
@@ -115,11 +114,11 @@ body {
 }
 
 .header__button {
-    margin: 0 15px;
+    margin: 0 5px;
 }
 
 .header__button i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .hamburger-nav {
